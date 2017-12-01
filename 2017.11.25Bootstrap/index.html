@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">    <!--//IE兼容性 IE8兼容-->
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>Bootstrap的应用</title>
+
+
+	<script src="lib/js/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="lib/css/bootstrap.min.css">
+	
+	<!--自己建css文件要在bootstrap库的下面引用-->
+	<link rel="stylesheet" href="./css/animate.css"><!--引用外界的animate.css-->
+	<link rel="stylesheet" href="css/index.css"><!--自己写的css-->		
+</head>
+
+
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div calss="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+		           <span class="icon-bar"></span>
+		           <span class="icon-bar"></span>
+		           <span class="icon-bar"></span>
+		        </button>
+				 <a class="navbar-brand" href="#"><img src="images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvOTE0OTEyYjMxMzVjNmFiNmZkYTYxZTE2N2M1ZjZmMTYucG5n.png" alt=""></a>
+			</div>
+
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">  <!--navbar导航栏-->
+                  <li><a href="###">首页</a></li>
+                  <li><a href="###">模板</a></li>
+                  <li><a href="###">套餐</a></li>
+                  <li><a href="###">案例</a></li>
+                  <li><a href="###">文档</a></li>
+                  <li><a href="###">关于</a></li>
+                </ul>
+			</div>	
+		</div>
+	</nav>
+
+	<!--网页banner部分-->
+		<div id="myCarousel" class="carousel slide">
+			<!-- 轮播（Carousel）指标 -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>   
+			<!-- 轮播（Carousel）项目 -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/aHR0cDovL3d3dy5pbnB1c3UuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8wOS9mZDVhZWQxYjYxNTYxODUyMGVlZTUyNmJiMmJlMmEwYS5qcGc_p_p100_p_3D1.jpg" alt="First slide">
+				</div>
+				<div class="item">
+					<img src="images/aHR0cDovL3d3dy5pbnB1c3UuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8wOS9jNmQyZmRmMjEwYWFiOTEwMDUwMWE3NTEyZjQzZjE2My5qcGc_p_p100_p_3D.jpg" alt="Second slide">
+				</div>
+				<div class="item">
+					<img src="images/aHR0cDovL3d3dy5pbnB1c3UuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8wOS8xOGFmMGZiYjRiYzY4ZTEzOGMxNDY3NzcxMWY3NTQyZi5qcGc_p_p100_p_3D.jpg" alt="Third slide">
+				</div>
+				<div class="item">
+					<img src="images/aHR0cDovL3d3dy5pbnB1c3UuY29tL3FmeS1jb250ZW50L3VwbG9hZHMvMjAxNi8wNy84NmMwOTNmNzJiZWIwZjdmMWYwOTBmMzVhZjZjOTMxNi5qcGc_p_p100_p_3D.jpg" alt="Third slide">
+				</div>
+			</div>
+			<!-- 轮播（Carousel）导航 -->
+			<a class="carousel-control left" href="#myCarousel" 
+			   data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel" 
+			   data-slide="next">&rsaquo;</a>
+		</div> 
+
+
+	<!--第三部分 更快更简单-->
+	 <section id="home">
+      <div class="lvjing">
+        <div class="container">
+            <div class="row wow bounceInUp">
+              <div class="col-md-1"></div>
+              <div class="col-md-10">
+                  <h1>更快，更简单</h1>
+                  <p>让你事半N倍的建站工具
+                  <br/>一次编译，在所有设备下使用</p>
+                  <img src="images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDEvZWQ1MDBkYWEzYjlhYjM2ZjNiOWNjMTU5YmFkNDQxZWItMTE2OXg3MjUuanBn.jpg" alt="home" class="img-responsive">  <!--图片自适应窗口2我的 -->
+              </div>
+              <div class="col-md-1"></div>
+
+            </div>
+        </div>
+      </div>
+    </section>
+
+	<!--第四部分 H5模板-->
+     <section id="bootstrap">
+        <div class="container">
+            <div class="col-md-6 col-sm-6">
+                <img src="images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDcvYmMwNjY4MDY1MDM0NmNlNTk2M2FmN2E4MTQwYTVmZjUucG5n.png" alt="bootstrap" class="img-responsive  row wow bounceInLeft">
+            </div>
+            <div class="col-md-6 col-sm-6 row wow fadeInDown">
+                <h2>基于H5模板，快速搭建一个响应式网站</h2>
+                <p>起飞页™代表着当今响应式自助建站技术的最高水平，没有之一。我们的网站构建器，将传统的编码工作转化为直观的拖拽操作和文字录入。在这里，您仅需花上10分钟便可以完成一个H5响应式网站，您会发现完全不需要编写一行代码，这就是起飞页自助建站的神奇之处。</p>
+              
+            </div>
+        </div>
+    </section>
+
+
+<!--第五部分 响应式自助建站-->
+    <section id="html5">
+        <div class="container">
+           
+                <div class="col-md-6 col-sm-6 row wow fadeInUp">
+                    <h2>真正的响应式自助建站，自适应所有设备</h2>
+                    
+                    <p>不同于其它假响应式品牌，起飞页采用的是真正的响应式引擎。您只需对网站资料进行一次性输入，网站即可根据访问者的设备智能地呈现出最佳效果，全程无需人工干预。设备包括但不限于：计算机、Pad、微信、手机和电视。</p>
+                </div>
+                <div class="col-md-6 col-sm-6 ">
+                    <img src="images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTcvMDcvM2U3NDI0NjlkOTU1MmRhMTIyMmZiZWQxOGY0MDBjOWMucG5n.png" alt="html5" class="img-responsive row wow bounceInRight">
+                </div>
+           
+        </div>
+    </section>
+
+
+<!--第六部分 一秒打开-->
+    <section id="lesson">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="row wow rotateIn">一秒打开，快的有点狠</h2>
+                    <p>超高性能云服务器和云网络，CPU提速90%，内存提速50%，IO处理提速200%，网速提高100%</p>
+                </div>
+                <div class="col-md-4">
+                  <div class="lesson"><img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvZGE5YWMyYTdkNTM4OTc0M2YyNmFhMzk2YjgxMmUxMTctODJ4NzAucG5n.png" alt="" class="img-responsive now"><a href="" class="btn">CND发布</a></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="lesson"><img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvYmNhMDIwYzZmMDNjOWRkYmNlOTEyODk3MmFmYmZjYTYtODJ4NzAucG5n.png" alt="" class="img-responsive now1"><a href="" class="btn">多层缓存</a></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="lesson"><img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvMDUwMDZiYjM5NWYzNzVmN2JmNDRjYWIyNTNkN2JmMDYtODJ4NzAucG5n.png" alt="" class="img-responsive now2"><a href="" class="btn ">页面压缩</a></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="lesson"><img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvMmE3Yzk5NTE4ZDAyZWQ1N2U3ZWJkYjliMDY2ZjVhOGQtODJ4NzAucG5n.png" alt="" class="img-responsive now3"><a href="" class="btn ">静态文件合并</a></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="lesson"><img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvMmFiYjY1ZjczYmQ2YmVhODNiZGQ3MTY4NTNlMmE4NGYtODJ4NzAucG5n.png" alt="" class="img-responsive now4"><a href="" class="btn">DNS 云解析</a></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="lesson"><img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvM2RhYzY0OWU0NDQxMzYyZDljYzUyZmU2Yzc2NDFiMGItODJ4NzAucG5n.png" alt="" class="img-responsive now5"><a href="" class="btn ">图片无损压缩</a></div>
+                </div>
+                
+                
+            </div>
+        </div>     
+    </section>
+
+
+
+	<!--第七部分 始于2007年-->
+    <section id="lesson">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="row wow zoomIn">始于2007年，已经为超过15万用户提供建站服务</h2>
+                    
+                    <span>众多不了解编程的用户使用起飞页自助建站平台做出了效果非凡的网站。也许，您也可以和他们一样出色！</span>
+                </div>
+                <div class="col-md-4">
+                  <img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvMjlmNDNmMjcyYjJkNTNhOTNlNjZlNzc2NzhiNmVjOWUucG5n.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                  <img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvM2MxMzFhYTgwNjY0YTdmNWQzZDAxOWM0YTdiYTE5NDUucG5n.png" alt="" class="img-responsive ">
+                </div>
+                <div class="col-md-4">
+                  <img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvYWRkODQ4NmI0MzE0ZDU1N2RjMjA2MTU4OTcxODdmZDcucG5n.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                  <img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvODNkZWMxMDM5NTA0NTFlZGJjYWEzODg1OGZkNWZkZDIucG5n.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                  <img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvYTc4NzM2MmUxY2ExMmJkMTNkNjhjZjAyYjEzNjE3OGUucG5n.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                  <img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvZTI1MmYyYzMxMThmOGU1NzhhOTg5MmU4OGRmNWNmNzgucG5n.png" alt="" class="img-responsive">
+                </div>
+                
+                
+            </div>
+        </div>     
+    </section>
+
+
+
+	<!--第八部分 查看更多案例row wow bounceInLeft-->
+    <div class="anli">
+		<div class="container">
+		 	<i>查看更多案例</i>
+            <div class=" back row wow flipInY ">
+            	<div class="row">
+	            	<div class="col-md-10 col-md-offset-1">
+		            	<h1>我们提供的不仅仅是工具</h1>
+		            	<span>起飞页提供了更多贴心的服务：网站备案、自动备份、快速恢复以及网站代建服务。 </br>我们使用了国内、香港和海外最好的网络和云服务器，以确保您的网站能够快速完美地呈现在世界各地的访客面前。</span>
+		            	<img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvZjMxN2YzZmIyZWRhYTU3MGZhNDE5YTQ1OGY2OTM2ZjYtMTAyNHg1NTQucG5n.png" alt="home" class="img-responsive"><!--图片自适应窗口2我的 -->
+		            </div>
+	            </div>
+            	
+            </div>
+    </div>
+
+
+
+<!--第九部分 查看更多案例row wow bounceInLeft-->
+    <section id="hezuo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="row wow zoomIn">合作伙伴</h2> 
+                </div>
+                <div class="col-md-6">
+                <div class="col-xs-6">
+                  	<div class=" lai"><img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvNTIwYzI5NDcwZjIwNmUxNjQwZDhhZTNkNjdlYTNhZjktMjIweDY2LnBuZw_p_p100_p_3D_p_p100_p_3D.png" alt="" class="img-responsive"></div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="lai"><img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvZTI3N2RjNmI2NmZhZjQ2OTZlMGNiMTgwNjlmZjMxZWQucG5n.png" alt="" class="img-responsive"></div>
+                </div>
+            	</div>
+               
+               <div class="col-md-6">
+                <div class=" col-xs-6">
+                   <div class="lai"><img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvY2E1ZmEzYjYxMTU1ZDZkYmRmZjc1YjQ1OTE2ZDBlZmIucG5n.png" alt="" class="img-responsive"></div>
+                </div>
+                <div class=" col-xs-6">
+                   <div class="lai"><img src="./images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvZGJlOWIyYjQxMTAzMDJlMzNiMDExYTZlMjhhZmZmNDgucG5n.png" alt="" class="img-responsive"></div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+		
+
+    <!--最底部 -->
+	<footer  class="marn">
+		<b>拓展您的业务，展示您的风采，或者只是尝试一下新的想法。 起飞页自助建站平台，拉近您与互联网的距离！</b>
+		<p>版权所有 2013-2017 苏州卡达网络科技有限公司   增值电信业务经营许可证苏B2-20150321 苏ICP备09008221号-3  苏公网安备 32059002001616号
+		</p>
+	</footer>
+
+
+<!--侧边部分-->
+	<div id="aaa">
+	<ul id="box">
+		<li class="li2">
+        	<span></span>
+        	<p>在线客服</p>
+        </li>
+		<li class="li3">
+        	<span></span>
+        	<p>4006285729</p>
+        </li>
+		<li class="li4">
+        	<span></span>
+        	<p>教程中心</p>
+        </li>
+
+	</ul>
+</div>
+
+
+
+</body>
+
+
+	
+	<script src="lib/js/bootstrap.min.js"></script>
+	<script src="./js/wow.min.js"></script>
+    <script src="./js/jquery.singlePageNav.min.js"></script>
+	<script>
+		$(function(){
+			// $('.nav').singlePageNav({
+   //          offset:70   //不顶到最上面
+   // //       })
+         $('.lesson').eq('0').mouseover(function(){
+         	$('.now').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvODBmZTYzMGZjMjExZTcyY2Y4Y2E5MDMwODc4OTQ4ZTktODJ4NzAucG5n.png');
+         });
+          $('.lesson').eq('0').mouseout(function(){
+         	$('.now').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvZGE5YWMyYTdkNTM4OTc0M2YyNmFhMzk2YjgxMmUxMTctODJ4NzAucG5n.png');
+         });
+          $('.lesson').eq('1').mouseover(function(){
+         	$('.now1').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvMWY1ZjcxOWU0YzZlODM5NWEwZmE3YTFkMTk1M2VkMGEtODJ4NzAucG5n.png');
+         });
+          $('.lesson').eq('1').mouseout(function(){
+         	$('.now1').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvYmNhMDIwYzZmMDNjOWRkYmNlOTEyODk3MmFmYmZjYTYtODJ4NzAucG5n.png');
+         });
+          $('.lesson').eq('2').mouseover(function(){
+         	$('.now2').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvNDJjZWIyNGQ2MmFlYTdhZmU0N2ZjMTczMDI1ZTA2MGUtODJ4NzAucG5n.png');
+         });
+          $('.lesson').eq('2').mouseout(function(){
+         	$('.now2').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvMDUwMDZiYjM5NWYzNzVmN2JmNDRjYWIyNTNkN2JmMDYtODJ4NzAucG5n.png');
+         });
+           $('.lesson').eq('3').mouseover(function(){
+         	$('.now3').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvNDJjZWIyNGQ2MmFlYTdhZmU0N2ZjMTczMDI1ZTA2MGUtODJ4NzAucG5n.png');
+         });
+          $('.lesson').eq('3').mouseout(function(){
+         	$('.now3').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvMmE3Yzk5NTE4ZDAyZWQ1N2U3ZWJkYjliMDY2ZjVhOGQtODJ4NzAucG5n.png');
+         });
+           $('.lesson').eq('4').mouseover(function(){
+         	$('.now4').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvYzAyZWE4ZjQ0YTQ1MmQ1N2RlN2Y5YzQ1YzEwMzcwNDQtODJ4NzAucG5n.png');
+         });
+          $('.lesson').eq('4').mouseout(function(){
+         	$('.now4').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvMmFiYjY1ZjczYmQ2YmVhODNiZGQ3MTY4NTNlMmE4NGYtODJ4NzAucG5n.png');
+         });
+           $('.lesson').eq('5').mouseover(function(){
+         	$('.now5').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvOGJiODg2NjEwMzc5MGEwNWEyYmU4YWEzYTQzNjBkYzktODJ4NzAucG5n.png');
+         });
+          $('.lesson').eq('5').mouseout(function(){
+         	$('.now5').attr('src','images/aHR0cDovL3d3dy5xaWZlaXllLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMTYvMTIvM2RhYzY0OWU0NDQxMzYyZDljYzUyZmU2Yzc2NDFiMGItODJ4NzAucG5n.png');
+         });
+          
+          //wow
+          new WOW().init(); 
+		})
+	</script>
+	
+
+	<script src="js/tongyong.js "></script>
+	<script>
+	window.onload = function(){
+	var oLi = document.getElementsByTagName('li');
+	
+	for(i=6;i<oLi.length;i++){
+			oLi[i].index = i;
+			oLi[i].onmouseover = function(){
+			myMove(oLi[this.index],'right',2,5);
+			oLi[this.index].style.backgroundColor="#3EA3FF";
+			}
+			oLi[i].onmouseout = function(){
+			myMove(oLi[this.index],'right',-112,5);
+			oLi[this.index].style.backgroundColor="#31353D";
+			}
+			
+	}
+}
+</script>
+
+</html>
